@@ -1,0 +1,11 @@
+{
+  "name": "rpullinger/acf-style-selector",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "license": "GPLv2 or later",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+}
