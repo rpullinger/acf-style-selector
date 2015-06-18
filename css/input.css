@@ -1,0 +1,40 @@
+.style-selector{
+	overflow: hidden;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+	.style-selector__item{
+		box-sizing: border-box;
+		float: left;
+		padding-top: 10px;
+		padding-left: 10px;
+		text-align: center;
+		min-width: 12.5%;
+	}
+
+		.style-selector__item label{
+			padding: 5px;
+			border: 1px solid #eee;
+			display: block;
+		}
+
+			.style-selector__item label.is-selected{
+				border-color: #000;
+			}
+
+		.style-selector input[type=radio]{
+			margin-bottom: 5px;
+		}
+
+		.style-selector__example{
+			display: block;
+			padding: 10px;
+		}
+
+
+#postbox-container-1 .style-selector input[type=radio]{}
+
+#postbox-container-1 .style-selector__item{
+	width: 50%;
+}
