@@ -135,19 +135,24 @@ class acf_field_style_selector extends acf_field {
 				'styles' => 'background-color: #e80c31; color: #fff; '
 			),
 			(object) array(
+				'id' => 'light-grey',
+				'name' => 'Light Grey',
+				'styles' => 'background-color: #f4f4f1; color: #000; '
+			),
+			(object) array(
 				'id' => 'grey',
 				'name' => 'Grey',
+				'styles' => 'background-color: #dfe0df; color: #000; '
+			),
+			(object) array(
+				'id' => 'medium-grey',
+				'name' => 'Medium Grey',
 				'styles' => 'background-color: #aaaaaa; color: #fff; '
 			),
 			(object) array(
 				'id' => 'dark-grey',
 				'name' => 'Dark Grey',
 				'styles' => 'background-color: #575656; color: #fff; '
-			),
-			(object) array(
-				'id' => 'dark',
-				'name' => 'Dark',
-				'styles' => 'background-color: #000; color: #fff; '
 			),
 			(object) array(
 				'id' => 'naked',
